@@ -1,0 +1,379 @@
+html, body {
+    height: 100%;
+    font-family: Merriweather;
+    font-style: normal;
+}
+.banner{
+    background-image: url('../images/Banner-Image.png');
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size:100%;
+    height: 100%;
+    margin: 0px 140px;
+    flex-shrink: 0;
+}
+
+.banner-small-text{
+    color: #fff;
+    font-size: 32px;
+    font-weight: 400;
+}
+.banner-text{
+    font-size: 72px;
+    font-weight: 900;
+    color: #fff;
+}
+.text{
+    display:inline-block;
+    vertical-align: middle; 
+    padding-top: 100px;
+}
+
+.text-off{
+    color:#F00;
+    text-align: center;
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 88px;
+}
+.small-text{
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500px;
+    text-align: center;
+    font-family: Inter;
+}
+.text-cat{
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: normal;
+}
+.new-year-img{
+    width:800px;
+    height: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.party{
+    background-image: url('../images/Vectorrr.png');
+    background-repeat: no-repeat;
+    background-size:100%;
+    height: 100%;
+    margin: 50px 140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.party-text{
+    padding-left: 100px;
+}
+.party-big-text{
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 40px;
+}
+.party-small-text{
+    color: #ffffffcc;
+    font-family: Inter;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 30px; 
+}
+.party-img img{
+    width: 220px;
+    height: 305px;
+    padding-right: 100px;
+}
+.party-button{
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 10px;
+    font-weight: 400;
+    text-transform: uppercase;
+    background-color: #070211;
+}
+.place{
+    margin: 0px 140px;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    text-transform: capitalize;
+    background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    padding: 100px 0px;
+}
+.place-red-text{
+    color: #F00;
+}
+.place-text{
+    color: black;
+}
+.place-button{
+    display: inline-flex;
+    padding: 10px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: #F00;
+    color: #FFF;
+    border: 0;
+    border-radius: 5px;
+    font-weight: 500;
+}
+.coming-red-text{
+    color: #F00;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: normal;
+}
+.coming-big-text{
+    color: #070211;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.coming-text{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 20px;
+}
+.comingsoon{
+    display: inline-flex;
+    margin: 0px 140px;
+    justify-content: space-between;
+}
+.coming-new{
+    width: 33%;
+}
+.coming-img{
+    width: 33%;
+}
+.coming-year{
+    width: 33%;
+}
+.coming-img img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 15px solid white;
+    outline: 10px solid red;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.coming-year-red{
+    color: #F00;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.coming-year-text{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 20px;
+}
+.coming-year img{
+    width: 80px;
+    height: 80px;
+}
+.holiday{
+    margin: 50px 140px 0px 140px;
+}
+.holiday-1{
+    color: #070211;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 200;
+    line-height: normal;
+    text-align: center;
+}
+.holiday-2{
+    text-align: center;
+}
+.holiday-2-red{
+    color: #F00;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: normal;
+}
+.holiday-2-white{
+    color: #070211;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: normal;
+}
+.holiday-3{
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 20px;
+}
+.holiday-image img{
+    display: flex;
+}
+.img1{
+    width: 75%;
+    height: 380px;
+    margin-bottom: -100px;
+    z-index: 2;
+    position: relative;
+}
+.img2{
+    width: 130px;
+    height: 130px;
+    position: absolute;
+    z-index: 1;
+    left: 64%;
+    padding-top: 47px;
+}
+.img3{
+    position:absolute;
+    width: 25%;
+    height: 70%;
+    z-index: -2;
+}
+.img4{
+    position: bottom;
+    border-radius: 20px 0px 20px 20px;
+    height: 150px;
+    width: 1042px;
+    z-index: -1;
+}
+.product{
+    margin: 50px 140px 0px 140px;
+}
+.pro-red-text{
+    color: #F00;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 20px;
+}
+.pro-big-text{
+    color: #070211;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+    line-height: 10px;
+}
+.pro-small-text{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 200;
+    line-height: 10px;
+}
+
+.pro-img img{
+    width: 30%;
+    padding: 1%;
+}
+.subscriber{
+    margin: 0px 140px;
+    background: rgba(255, 0, 0, 0.05);;
+}
+.subscriber img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    height: 100px;
+    padding-top: 50px;
+}
+.subs-text{
+    color: #070211;
+    text-align: center;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    text-transform: capitalize;
+}
+.subs-small-text{
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 16px;
+    padding: 0px 212px;
+}
+.subscriber-btn{
+    width: 100%;
+    float: left;
+    padding: 15px 20px;
+    text-align: center;
+    font-family: inherit;
+    font-size: 12px;
+}
+.form-field{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+input[type="email"]{
+    background-color: white;
+    width: 220px;
+    height: 30px;
+    border: 0px;
+    border-radius: 5px 0 0 5px;
+}
+input[type="submit"]{
+    background-color: red;
+    width: 100px;
+    height: 30px;
+    border-radius: 0 5px 5px 0;
+    border: 0px;
+}
+.footer{
+    margin: 0 140px;
+    background-color: black;
+    color: white;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 20px;
+}
+.footer-text{
+    display: flex;
+    justify-content:space-around;
+    padding: 20px;
+}
+.copyright{
+    display: flex;
+    justify-content:space-around;
+    padding: 20px;
+}
+.footer-img{
+    display: flex;
+    justify-content: center;
+}
+hr{
+    border-width: 0.5px;
+    color: gray;
+}
